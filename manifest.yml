@@ -1,0 +1,8 @@
+---
+applications:
+- name: odata-mock-server
+  memory: 64M
+  buildpacks:
+  - nodejs_buildpack
+  routes:
+      - route: 'odata-mock-server.internal.cfapps.sap.hana.ondemand.com'
